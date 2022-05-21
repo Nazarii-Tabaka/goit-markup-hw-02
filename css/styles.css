@@ -17,6 +17,10 @@ address {
 	font-style: normal;
 }
 
+button {
+	cursor: pointer;
+}
+
 header {
 	border-bottom: 1px solid #ececec;
 }
@@ -44,11 +48,11 @@ header {
 }
 
 .studio:hover,
-:focus,
+.studio:focus,
 .portfolio:hover,
-:focus,
+.portfolio:focus,
 .contacts:hover,
-:focus {
+.contacts:focus {
 	color: #2196f3;
 	outline: none;
 }
@@ -62,7 +66,7 @@ header {
 }
 
 .header-link:hover,
-:focus {
+.header-link:focus {
 	color: #2196f3;
 	outline: none;
 }
@@ -95,8 +99,10 @@ header {
 	color: #ffffff;
 }
 
-.studio-button:hover {
-	visibility: hidden;
+.studio-button:hover,
+.studio-button:focus {
+	background: #188ce8;
+	outline: none;
 }
 
 .features h3 {
@@ -188,11 +194,11 @@ footer {
 }
 
 .footer-address:hover,
-:focus,
+.footer-address:focus,
 .footer-mail:hover,
-:focus,
+.footer-mail:focus,
 .footer-tel:hover,
-:focus {
+.footer-tel:focus {
 	color: #2196f3;
 	outline: none;
 }
@@ -213,18 +219,20 @@ footer {
 }
 
 .filter1:hover,
-:focus,
+.filter1:focus,
+.filter2:focus,
 .filter2:hover,
-:focus,
+.filter2:focus,
 .filter3:hover,
-:focus,
+.filter3:focus,
 .filter4:hover,
-:focus,
+.filter4:focus,
 .filter5:hover,
-:focus {
+.filter5:focus {
 	background: #2196f3;
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 	color: #ffffff;
+	outline: none;
 }
 
 .project-list li {
